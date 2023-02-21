@@ -27,12 +27,10 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-var clients = document.getElementById('clients');
-
-clients.addEventListener('click', function() {
-  $(clients).toggleClass("active");
-  $(".parent:not(#clients)").toggleClass("invisible");
-}, false);
-
 var vid = document.getElementById("myVideo");
-vid.playbackRate = 0.1;
+/*vid.playbackRate = 0.1;*/
+vid.play();
+
+
+var vid2 = document.getElementById("myVideo2");
+vid2.play();

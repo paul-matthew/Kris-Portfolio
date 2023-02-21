@@ -37,7 +37,7 @@
       </header>
       <section class="container-intro">
         <div class="introvid">
-          <video autoplay='autoplay' playsinline='playsinline' muted id="myVideo">
+          <video autoplay='autoplay' playsinline='playsinline' muted loop id="myVideo">
             <source src="pictures/intro3.mp4" type="video/mp4">
           </video>
         </div>
@@ -64,11 +64,12 @@
 	      </div>
       </section>
       <section class="cover-desktop">
-        <div class="cover-container scrollFade fade-bottom">
+        <div class="cover-container">
           <div class="coverswap1"></div>
           <div class="coverswap2"></div>
           <div class="coverswap3"></div>
         </div>
+        <img id="plane2" src="pictures/plane2.gif">
       </section>
       <section class="cover-mobile">
         <div class="slideshow-container">
@@ -82,13 +83,13 @@
           <a class="next" onclick="plusSlides(1)">❯</a>
         </div>
         <br> 
-        <div style="text-align:center">
+        <div class='dots' style="text-align:center">
           <span class="dot" onclick="currentSlide(1)"></span> 
           <span class="dot" onclick="currentSlide(2)"></span> 
           <span class="dot" onclick="currentSlide(3)"></span> 
         </div>
+        <img id="plane2" src="pictures/plane2.gif">
       </section>
-
       <section class="container-blog">
         <div class="blog">
           <iframe scrolling='no' class="blogrss-desk" width="900" height="600" src="https://rss.app/embed/v1/imageboard/7CSFB0sd2pS1Y96v" frameborder="0"></iframe>
@@ -98,7 +99,7 @@
 
       <section class="container-outro">
         <div class="outrovid">
-          <video autoplay='autoplay' playsinline='playsinline' muted id="myVideo2">
+          <video autoplay="autoplay" playsinline="playsinline" muted loop id="myVideo2">
             <source src="pictures/outro.mp4" type="video/mp4">
           </video>
         </div>

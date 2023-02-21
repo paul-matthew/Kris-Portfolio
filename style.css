@@ -608,9 +608,10 @@ section{
 
  #plane2 {
     width: 300px; 
-    height: 10px;
+    position:absolute;
+    height: 300px;
     animation: move2 16s infinite;
-    z-index:-100;
+    z-index:0;
 }
 .container-outro{
     /*margin-top: 60px;*/
@@ -763,10 +764,12 @@ a.btn.IG:hover{
   border-style:none;
   border-color:red;
   padding: 10%;
+  width:100%;
 }
 
 .cover-container div{
   margin:0 0 0;
+  background-color: white;
 }
 
 .cover-mobile, .cover-desktop{
@@ -800,6 +803,9 @@ a.btn.IG:hover{
     top:50%;
     -ms-transform:translateY(-50%);
     transform: translateY(-50%);
+    border-style: none;
+    border-color: red;
+    background-color: white;
   }
 
   .coverswap1 {
@@ -870,8 +876,16 @@ a.btn.IG:hover{
   }
    
   /* The dots/bullets/indicators */
+  .dots{
+    bottom:10%;
+    width:100%;
+    margin:auto;
+    position:absolute;
+  }
+  
   .dot {
     cursor: pointer;
+    z-index:10;
     height: 15px;
     width: 15px;
     margin: 0 2px;
@@ -916,6 +930,7 @@ a.btn.IG:hover{
   }
   .coverswap1 {
   width: 33%;
+  height:80%;
   border-style:none;
   border-color: black;
   padding: 20%;
