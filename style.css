@@ -2,11 +2,8 @@ html,body{
     margin:0;
     height:100%;
     overflow-x: hidden;
-}
+    background: linear-gradient(136deg, rgba(165,206,237,1) 34%, rgba(64,174,245,1) 78%) no-repeat center center fixed;
 
-body{
-  background: rgb(165,206,237);
-  background: linear-gradient(136deg, rgba(165,206,237,1) 34%, rgba(64,174,245,1) 78%) no-repeat center center fixed;
 }
 
 section{
